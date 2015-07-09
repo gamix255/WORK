@@ -1,4 +1,10 @@
 from bottle import route, run
+from bottle import static_file
+
+@route('/static/<filename:path>')
+def static_file_send(filename):
+  return static_file(filename, root='./static')
+
 
 @route('/screen')
 
@@ -12,7 +18,7 @@ def screen():
 <script type="text/javascript">
  
 <!--
-setInterval("loadIMG()",5000);
+setInterval("loadIMG()",800);
 window.URL = window.URL || window.webkitURL;
  
 function loadIMG(){
@@ -53,4 +59,4 @@ function loadIMG(){
 </body>
 </html>
 """
-run(host='localhost', port=8080)
+run(host='0.0.0.0', port=1234)
