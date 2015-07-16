@@ -1,0 +1,17 @@
+
+
+##time python   -c "import time;time.sleep(0.1)"
+
+#real    0m0.407s
+#user    0m0.229s
+#sys     0m0.066s
+## time sleep 0.1
+
+#real    0m0.131s
+#user    0m0.002s
+#sys     0m0.014s
+## time perl -MTime::HiRes -e 'Time::HiRes::sleep(0.1)'
+
+#real    0m0.653s
+#user    0m0.199s
+#sys     0m0.053s
