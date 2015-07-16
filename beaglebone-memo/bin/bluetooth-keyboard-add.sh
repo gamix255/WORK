@@ -10,6 +10,9 @@
 #Scanning ...
 #        AA:BB:CC:DD:EE:FF       Nintendo Wireless Keyboard
 
+#bluez-simple-agent hci0 AA:BB:CC:DD:EE:FF
+#bluez-test-device trusted AA:BB:CC:DD:EE:FF yes
+
 # memo:bluetooth package install message  
 
 # The following extra packages will be installed:
