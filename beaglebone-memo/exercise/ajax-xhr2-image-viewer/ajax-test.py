@@ -18,7 +18,7 @@ def screen():
 <script type="text/javascript">
  
 <!--
-setInterval("loadIMG()",800);
+setInterval("loadIMG()",128);
 window.URL = window.URL || window.webkitURL;
  
 function loadIMG(){
