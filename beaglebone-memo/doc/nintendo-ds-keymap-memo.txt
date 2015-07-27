@@ -1,0 +1,15 @@
+
+if system not chenged and key press at nintendo ds keyboard
+
+(SHIFT 1st line)  ~ ! @ # $ % ^ & * ( ) _ +
+(NORMAL 1st line) ` 1 2 3 4 5 6 7 8 9 0 - =
+(SHIFT 2nd line)     Q W E R T Y U I O P { } 
+(NORMAL 2nd line)    q w e r t y u i o p [ ] 
+(SHIFT 3rd line)      A S D F G H J K L : " | 
+(NORMAL 3nd line)     a s d f g h j k l ; ' \
+(SHIFT 4th line)       Z X C V B N M < > ?
+(NORMAL 4th line)      z x c v b n m , . / 
+
+
+TODO: other key check in
+ showkey --scancodes
